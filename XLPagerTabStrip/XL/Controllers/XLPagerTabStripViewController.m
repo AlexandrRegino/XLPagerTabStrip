@@ -148,7 +148,7 @@
 
 -(void)moveToViewControllerAtIndex:(NSUInteger)index animated:(BOOL)animated
 {
-    if (!self.isViewLoaded || !self.view.window){
+    if (!self.isViewLoaded){
         self.currentIndex = index;
     }
     else{
